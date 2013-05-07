@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		   xmlns:s="library://ns.adobe.com/flex/spark" 
+		   xmlns:mx="library://ns.adobe.com/flex/mx" width="400" height="200" 
+		   click="switchState()" creationComplete="init()" >
+	<fx:Script>
+		<![CDATA[
+			import flash.net.navigateToURL;
+			import mx.managers.ToolTipManager;
+			
+			protected function init():void
+			{
+				ToolTipManager.showDelay = 0;				
+			}
+			
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			
+			[Bindable] public var sponsorArtURL:String; 
+			[Bindable] public var sponsorThumbURL:String;
+			[Bindable] public var sponsorName:String;
+			[Bindable] public var sponsorBlurb:String;
+			[Bindable] public var sponsorLinkURL:String;
+						
+			protected function switchState():void
+			{
+				if(currentState == "artState"){
+					currentState = "detailState";
+				}else{
+					currentState = "artState";
+				}
+			}
+			
+		]]>
+	</fx:Script>
+	<mx:states>
+		<mx:State name="artState"/>
+		<mx:State name="detailState"/>	
+	</mx:states>
+	<mx:transitions>
+		<s:Transition fromState="artState" toState="detailState">
+			<s:Sequence>
+				<s:Rotate3D target="{this}" autoCenterTransform="true" angleXFrom="0" angleXTo="90" duration="1000"/>
+				<mx:SetPropertyAction target="{sponsorArt}" name="visible" value="false"/>
+				<mx:SetPropertyAction  target="{sponsorDetail}" name="visible" value="true"/>
+				<s:Rotate3D target="{this}" autoCenterTransform="true" angleXFrom="90" angleXTo="0" duration="1000"/>
+			</s:Sequence>
+		</s:Transition>			
+		<s:Transition fromState="detailState" toState="artState">
+			<s:Sequence>
+				<s:Rotate3D target="{this}" autoCenterTransform="true" angleXFrom="0" angleXTo="90" duration="1000"/>
+				<mx:SetPropertyAction target="{sponsorDetail}" name="visible" value="false"/>
+				<mx:SetPropertyAction target="{sponsorArt}" name="visible" value="true"/>
+				<s:Rotate3D target="{this}" autoCenterTransform="true" angleXFrom="90" angleXTo="0" duration="1000"/>
+			</s:Sequence>
+		</s:Transition>
+	</mx:transitions>
+	
+	<mx:Canvas id="sponsorArt"  height="100%" width="100%" backgroundColor="0x009FE0" toolTip="CLICK FOR DETAILS"
+			   visible.artState="true" visible.detailState="false">
+		<s:Image source="{sponsorArtURL}" verticalCenter="0" horizontalCenter="0"/>		
+	</mx:Canvas>
+	
+	<mx:Canvas  id="sponsorDetail" height="100%" width="100%" backgroundColor="0x009FE0"
+				visible.artState="false" visible.detailState="true">		
+		<mx:HBox verticalCenter="0" verticalScrollPolicy="off" width="100%" paddingLeft="15">
+			<s:Image id="sponsorThumb" source="{sponsorThumbURL}"/>
+			<mx:VBox width="100%">
+				<s:Label id="nameLabel" text="{sponsorName}" width="100%"/>
+				<mx:Text id="sponsorBlubText" text="{sponsorBlurb}" width="100%"/>
+				<mx:LinkButton label="{sponsorLinkURL}" click="{navigateToURL( new URLRequest(sponsorLinkURL), '_blank' )}"/> 	 
+			</mx:VBox>
+		</mx:HBox>
+	</mx:Canvas>
+
+</mx:Canvas>

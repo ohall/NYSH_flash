@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<trophies>
+	<trophy>
+		<name>Connecticut Kickball Open</name>
+		<date>Saturday, May 7th, 2011</date>
+		<locations>Colt Park, Hartford CT</locations>
+		<pic>../media/trophy.png</pic>
+	</trophy>
+	<trophy>
+		<name>Ultimate Rec Spring Soccer</name>
+		<date>Thursday, June 23th, 2011</date>
+		<locations>Roosevelt Island, NYC</locations>
+		<pic>../media/urecsoccerspring11.png</pic>
+	</trophy>
+	<trophy>
+		<name>WAKA NY Central</name>
+		<date>Thursday, August 4th, 2011</date>
+		<locations>Central Park, NYC</locations>
+		<pic>../media/toilet_trophy.png</pic>
+	</trophy>
+	<trophy>
+		<name>The Circuit: Best Logo</name>
+		<date>8/9/2011</date>
+		<locations>Las Vegas, NV</locations>
+		<pic>../media/logoTrophy.png</pic>
+	</trophy>
+	<trophy>
+		<name>Boston Kickball Open</name>
+		<date>8/22/2011</date>
+		<locations>Boston, MA</locations>
+		<pic>../media/bostontrophy.png</pic>
+	</trophy>
+	<trophy>
+		<name>WAKA NY Star</name>
+		<date>12/6/2011</date>
+		<locations>East River Park, NYC</locations>
+		<pic>../media/NYStarTrophy11.png</pic>
+	</trophy>	
+	<trophy>
+		<name>LSKO 2012</name>
+		<date>4/21/2012</date>
+		<locations>Austin, TX</locations>
+		<pic>../media/LSKO_2012_Trophy.png</pic>
+	</trophy>
+		<trophy>
+		<name>PAKC 2012</name>
+		<date>6/9/2012</date>
+		<locations>Harrisburg, PA</locations>
+		<pic>../media/PAKC_2012_Trophy.png</pic>
+	</trophy>
+	<trophy>
+		<name>Female MVP Circuit Tour 2012</name>
+		<date>Amy Malbon</date>
+		<locations>Circuit Tour 2012</locations>
+		<pic>../media/NYSHfemaleMVP2012.png</pic>
+	</trophy>
+	<trophy>
+		<name>Play of the Year: 'Ricky Flies'</name>
+		<date>Ricky Laforge</date>
+		<locations>Circuit Tour 2012</locations>
+		<pic>../media/NYSHplayoftheyear2012.png</pic>
+	</trophy>
+	<trophy>
+		<name>National Tour Runner-Up</name>
+		<date></date>
+		<locations>Circuit Tour 2012</locations>
+		<pic>../media/NatTourRunnerUp2012.png</pic>
+	</trophy>
+</trophies>
+
+

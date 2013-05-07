@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		   xmlns:s="library://ns.adobe.com/flex/spark" 
+		   xmlns:mx="library://ns.adobe.com/flex/mx" 
+		   creationComplete="creationComplete(event)" height="100%" width="100%">
+	<fx:Declarations>
+		<fx:XML id="sponsorXml" source="sponsors.xml"/>
+		<s:XMLListCollection id="xmlListColl" source="{sponsorXml.sponsor}" />
+	</fx:Declarations>
+	
+	<fx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+			
+			
+			
+			
+			protected function creationComplete(event:FlexEvent):void{
+				for each(var sponsor:Object in xmlListColl){
+					var _sponsorWidget:SponsorWidget = new SponsorWidget();
+					_sponsorWidget.sponsorArtURL = sponsor.art;
+					_sponsorWidget.sponsorThumbURL = sponsor.thumb;
+					_sponsorWidget.sponsorName = sponsor.name;
+					_sponsorWidget.sponsorBlurb = sponsor.blurb;
+					_sponsorWidget.sponsorLinkURL = sponsor.url;
+					sponsorTile.addChild(_sponsorWidget);
+				}
+				
+			}
+			
+		]]>
+	</fx:Script>	
+	<mx:Tile id="sponsorTile" x="20" y="20"/>
+	<s:Image source="@Embed('media/ash_no_bkgnd.png')" bottom="0" right="0"/>
+
+</mx:Canvas>

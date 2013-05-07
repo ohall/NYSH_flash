@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- http://blog.flexexamples.com/2008/03/08/creating-a-simple-image-gallery-with-the-flex-tilelist-control/ -->
+<mx:VBox xmlns:mx="http://www.adobe.com/2006/mxml"
+		 horizontalAlign="center" verticalScrollPolicy="off" horizontalScrollPolicy="off"
+		 verticalAlign="middle" backgroundColor="0x009FE0">
+	<mx:Image source="{data.thumbnailImage}" />
+</mx:VBox>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		   xmlns:s="library://ns.adobe.com/flex/spark" 
+		   xmlns:mx="library://ns.adobe.com/flex/mx" width="100%">
+	<fx:Declarations>
+		<fx:XML id="trophyXml" source="trophies.xml" />
+		<s:XMLListCollection id="xmlListColl" source="{trophyXml.trophy}" />
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import mx.containers.GridItem;
+			
+			protected function trophyGrid_creationCompleteHandler():void
+			{
+				var i:int = 0;
+				for each(var _trophy:Object in xmlListColl){
+					
+					var item:GridItem = new GridItem()
+					var trophy:TrophyWidget = new TrophyWidget();
+					trophy.trophyName = _trophy.name;
+					trophy.trophyDate = _trophy.date;
+					trophy.trophyLoc = _trophy.locations;
+					trophy.trophyPic = _trophy.pic;
+					
+					item.addChild(trophy);
+					
+					i++;
+					if(i < 6){
+						trophyRow1.addChild(item);
+					}else if(i < 11) {
+						trophyRow2.addChild(item);
+					}else{
+						trophyRow3.addChild(item);
+					}
+				}
+				
+			}
+			
+		]]>
+	</fx:Script>
+	<mx:Grid id="trophyGrid" x="10" y="10" 
+			 creationComplete="trophyGrid_creationCompleteHandler()">
+		<mx:GridRow id="trophyRow1"/>
+		<mx:GridRow id="trophyRow2"/>
+		<mx:GridRow id="trophyRow3"/>
+	</mx:Grid>
+	<s:Image source="@Embed('media/kp_pitch_no_bkgnd.png')" bottom="0" right="0"/>
+</mx:Canvas>

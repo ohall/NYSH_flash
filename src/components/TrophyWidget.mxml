@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:VBox xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx" horizontalAlign="center" 
+		 backgroundColor="0x009FE0" verticalGap="0" 
+		 borderStyle="solid" borderColor="0x000000" borderVisible="true" 
+		 click="clickHandler(event)" height="250" width="180" verticalAlign="middle">
+	<fx:Declarations>
+		<s:Rotate3D id="rotate3DY"
+					target="{this}"
+					angleYFrom="0"
+					angleYTo="1080"
+					duration="2000"
+					autoCenterTransform="true" />
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import spark.utils.DataItem;
+
+			[Bindable] public var trophyName:String;
+			[Bindable] public var trophyDate:String;	
+			[Bindable] public var trophyLoc:String;	
+			[Bindable] public var trophyPic:String;
+			
+			protected function clickHandler(event:MouseEvent):void{
+				rotate3DY.play();
+				
+			}
+			
+		]]>
+	</fx:Script>
+	
+	
+	<s:Image id="trophyImage" source="{trophyPic}" />
+	<mx:Text text="{trophyName}" fontWeight="bold"/>
+	<mx:Text text="{trophyDate}"/>
+	<mx:Text text="{trophyLoc}"/>
+	
+	
+	
+	
+	
+</mx:VBox>

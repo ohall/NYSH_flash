@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		   xmlns:s="library://ns.adobe.com/flex/spark" 
+		   xmlns:mx="library://ns.adobe.com/flex/mx" 
+		   click="ballClickHandler(event)">
+	
+	<fx:Declarations>
+		<s:Bounce id="bounceEasing"/>
+		<s:Elastic id="elasticEasing"/>
+		<s:Animate id="up" targets="{[this]}" duration="3000" easer="{bounceEasing}">
+			<s:SimpleMotionPath property="bottom" valueFrom="0.0" valueTo="400.0" />
+			<s:SimpleMotionPath property="scaleY" valueFrom="1" valueTo=".5" />
+			<s:SimpleMotionPath property="scaleX" valueFrom="1" valueTo=".5" />
+			<s:SimpleMotionPath property="bottom" valueFrom="400.0" valueTo="0.0" />
+			<s:SimpleMotionPath property="scaleY" valueFrom=".5" valueTo="1" />
+			<s:SimpleMotionPath property="scaleX" valueFrom=".5" valueTo="1" />
+		</s:Animate>
+	</fx:Declarations>
+	
+	<fx:Script>
+		<![CDATA[
+			protected function ballClickHandler(event:MouseEvent):void
+			{
+				up.play();
+			}
+			
+			
+			public function bounce():void{
+				
+				up.play();
+			}
+		]]>
+	</fx:Script>
+		
+	<s:Image id="ball" source="@Embed('media/circuit_ball_sm2.png')"/>
+</mx:Canvas>

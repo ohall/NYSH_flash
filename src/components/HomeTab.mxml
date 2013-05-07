@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx"
+		 width="100%" height="100%" xmlns:components="components.*" 
+		 creationComplete="init(event)">
+	<fx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+			
+			protected function init(event:FlexEvent):void{
+				ball.bounce();
+			}
+			
+			protected function vid_clickHandler(event:MouseEvent):void{
+				vid.playing?vid.pause():vid.play();
+			}
+			
+		]]>
+	</fx:Script>
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<s:VideoDisplay id="vid" source="nysh_kickball_2013.mp4" x="40" top="10" 
+					autoPlay="true" click="vid_clickHandler(event)" buttonMode="true" useHandCursor="true" loop="true" />	
+	<s:HGroup right="50" top="20" gap="30">
+		<components:RickyFlies />
+		<components:FacebookButton/>
+		<components:TwitterButton />
+		<components:YouTubeButton />
+	</s:HGroup>	
+	<s:Image source="@Embed('media/contactUs2.png')" alpha=".75" top="0"/>
+	<s:Image source="@Embed('media/league_logos.png')" alpha=".75" bottom="0" left="10"/>
+	<s:Image source="@Embed('media/pakc_team_nobkgnd_sm.png')" bottom="0" right="10"/>
+	<components:CircuitBall id="ball" bottom="0" right="250" />
+</mx:Canvas>

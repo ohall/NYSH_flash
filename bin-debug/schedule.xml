@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<upcomingEvents>
+<!-- 	<event>
+		<name>Virginia Beach Kickball Open</name>
+		<date>May 21st 2011</date>
+		<location>VA Beach, VA</location>
+		<contact>April Moore</contact>
+		<url>www.virginiabeachkickballopen.com</url>
+		<team_status>Semi-Final</team_status>
+	</event>
+	<event>
+		<name>K365 Open</name>
+		<date>July 16th 2011</date>
+		<location>Washington DC</location>
+		<contact>Matt Kemph</contact>
+		<url>dc.kickball365.com/</url>
+		<team_status>Early Exit</team_status>
+	</event>
+	<event>
+		<name>New York City Grand National</name>
+		<date>August 13th 2011</date>
+		<location>New York, NY</location>
+		<contact>Cullen Shaw</contact>
+		<url>www.ultimaterec.com</url>
+		<team_status>Semi-Final</team_status>
+	</event>
+	<event>
+		<name>Circuit Championship</name>
+		<date>October 9th 2011</date>
+		<location>Las Vegas, NV</location>
+		<contact>Matt Kemph</contact>
+		<url>www.kickball365.com/thecircuit/circuit-cup</url>
+		<team_status>Runner Up</team_status>
+	</event> -->
+	<event>
+		<name>South Florida Open</name>
+		<date>February 18th, 2012</date>
+		<location>Ft Lauderdale, FL</location>
+		<contact>Jon Simon</contact>
+		<url>http://bit.ly/SFKO2012Register</url>
+		<team_status>Elite 8</team_status>
+	</event>
+	<event>
+		<name>Lone Star Kickball Open</name>
+		<date>April 21st 2012</date>
+		<location>Austin, TX</location>
+		<contact>Jon Simon</contact>
+		<url>http://www.theikf.com/</url>
+		<team_status>Champions</team_status>
+	</event>
+	<event>
+		<name>PA Kickball Classic</name>
+		<date>June 9th 2012</date>
+		<location>Harrisburg, PA</location>
+		<contact>Jason McMullen</contact>
+		<url>http://pakc.kickball365.com/</url>
+		<team_status>Champions</team_status>
+	</event>
+	<event>
+	<name>K365 Open</name>
+		<date>July 14th 2012</date>
+		<location>Washington DC</location>
+		<contact>Matt Kemph</contact>
+		<url>dc.kickball365.com/</url>
+		<team_status>Elite 8</team_status>
+	</event>
+	<event>
+		<name>New York City Grand National</name>
+		<date>August 11th 2012</date>
+		<location>New York, NY</location>
+		<contact>Cullen Shaw</contact>
+		<url>www.ultimaterec.com</url>
+		<team_status>Elite 8</team_status>
+	</event>
+	<event>
+		<name>Boston Kickball Open</name>
+		<date>September 22nd, 2012</date>
+		<location>Boston MA</location>
+		<contact>Matt Kemph</contact>
+		<url>http://www.kickball365.com/thecircuit/#</url>
+		<team_status>Elite 8</team_status>
+	</event>
+	<event>
+		<name>Circuit Cup Championship</name>
+		<date>November 11th 2012</date>
+		<location>New Orleans, LA</location>
+		<contact>Matt Kemph</contact>
+		<url>www.kickball365.com/thecircuit/circuit-cup</url>
+		<team_status>Final Four</team_status>
+	</event>
+</upcomingEvents>

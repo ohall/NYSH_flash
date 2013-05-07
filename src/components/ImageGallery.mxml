@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		   xmlns:s="library://ns.adobe.com/flex/spark" 
+		   xmlns:mx="library://ns.adobe.com/flex/mx" xmlns:components="components.*" 
+		   backgroundColor="0x009FE0">
+
+		<fx:Declarations>
+			<mx:WipeDown id="image_addedEffect" startDelay="100" />
+			
+			<s:Parallel id="image_removedEffect">
+				<mx:Zoom />
+				<mx:Fade />
+			</s:Parallel>
+			<fx:XML id="imageXml" source="vbkoPics.xml" />
+			<s:XMLListCollection id="xmlListColl" source="{imageXml.image}" />
+		</fx:Declarations>
+	
+	
+		<fx:Style>
+			/* global {
+			modal-transparency: 0.9;
+			modal-transparency-color: white;
+			modal-transparency-blur: 9;
+			} */
+		</fx:Style>
+
+	
+		<fx:Script>
+			<![CDATA[
+				import mx.controls.Image;
+				import mx.effects.Resize;
+				import mx.events.FlexEvent;
+				import mx.events.ItemClickEvent;
+				import mx.events.ListEvent;
+				import mx.events.ResizeEvent;
+				import mx.managers.PopUpManager;
+			
+			[Bindable] public var photographer:String;
+			[Bindable] public var photogSite:String;
+				
+				
+				
+			private var img:Image;
+			
+				
+				
+				
+			private function tileList_itemClick(evt:ListEvent):void {
+			img = new Image();
+			// img.width = 300;
+			// img.height = 300;
+			img.maintainAspectRatio = true;
+			img.addEventListener(Event.COMPLETE, image_complete);
+			img.addEventListener(ResizeEvent.RESIZE, image_resize);
+			img.addEventListener(MouseEvent.CLICK, image_click);
+			img.source = evt.itemRenderer.data.fullImage;
+			img.setStyle("addedEffect", image_addedEffect);
+			img.setStyle("removedEffect", image_removedEffect);
+			PopUpManager.addPopUp(img, this, true);
+			}
+			
+			private function image_click(evt:MouseEvent):void {
+			PopUpManager.removePopUp(evt.currentTarget as Image);
+			}
+			
+			private function image_resize(evt:ResizeEvent):void {
+			PopUpManager.centerPopUp(evt.currentTarget as Image);
+			}
+			
+			private function image_complete(evt:Event):void {
+			PopUpManager.centerPopUp(evt.currentTarget as Image);
+			}
+				
+				
+			]]>
+		</fx:Script>		
+		<mx:VBox width="100%" height="100%">			
+			<mx:TileList id="tileList" width="100%" contentBackgroundColor="0x009FE0"
+						 dataProvider="{xmlListColl}"
+						 columnWidth="75" 
+						 itemRenderer="components.ImageGalleryItemRenderer"
+						 rowHeight="75"
+						 verticalScrollPolicy="on"
+						 itemClick="tileList_itemClick(event);" />
+			<s:Label text="Photos by: {photographer}"/>
+			<s:Label text="See more at {photogSite}" />
+		</mx:VBox>	
+			
+</mx:Canvas>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<list>
+	<sponsor>
+		<name>EZ Power Crushers</name>
+		<blurb>EZ Power Crushers are complete, ready-to-use powered aluminum can crushers.  If you have a lot of cans or are collecting them for your company, organization, or for some extra cash, the EZ Power Crushers are a great way to smash those cans - making storage and delivery to the recycler easy.  EZ Power Crushers can currently in use all over the U.S. in homes, wood and auto shops, bar and restaurants, schools, and local recyclers.</blurb>
+		<url>http://www.ezlifellc.com</url>
+		<art>../sponsor_pics/ezpower.png</art>
+		<thumb>../sponsor_pics/ezpower_thumb.png</thumb>
+	</sponsor>
+	<sponsor>
+		<name>Ultimate Rec</name>
+		<blurb>Began with ultimate frisbee, expanded to soccer, football, and kickball.</blurb>
+		<url>http://www.ultimaterec.com</url>
+		<art>../sponsor_pics/urec.png</art>
+		<thumb>../sponsor_pics/urec_thumb.png</thumb>
+	</sponsor>
+	<sponsor>
+		<name>CLIF Bar</name>
+		<blurb>Clif Bar and Company is a leading maker of nutritious, all-natural, organic foods and drinks, including CLIF BAR energy bar, LUNA, The Whole Nutrition Bar for Women; and CLIF Kid, Nourishing Kids in Motion.  Focused on sports nutrition and healthy snacks, the employee and family-owned company is committed to sustaining its people, brands, business, community and planet.</blurb>
+		<url>http://www.clifbar.com</url>
+		<art>../sponsor_pics/clif.png</art>
+		<thumb>../sponsor_pics/clif_thumb.png</thumb>
+	</sponsor>
+		<sponsor>
+		<name>United States Military Endowment</name>
+		<blurb>Team USME is a dedicated group of individuals across the country who compete in endurance races of all kinds in order to raise awareness and funds in support of our mission. With this money, USME can support the operations of our outstanding beneficiary organizations that are in the trenches every day of the year helping our troops transition to civilian life.</blurb>
+		<url>http://www.usmilitaryendowment.org/</url>
+		<art>../sponsor_pics/USME.png</art>
+		<thumb>../sponsor_pics/USME_thumb.png</thumb>
+	</sponsor>
+</list>

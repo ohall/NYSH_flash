@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009" 
+			   xmlns:s="library://ns.adobe.com/flex/spark" 
+			   xmlns:mx="library://ns.adobe.com/flex/mx" minWidth="1080" minHeight="600" backgroundColor="0x000000"
+			   skinClass="skins.GradientBackgroundAppSkin" 
+			   xmlns:components="components.*">
+	<fx:Declarations>
+		<analytics:FlexTracker
+			xmlns:analytics="com.google.analytics.components.*"
+			id="tracker"
+			account="UA-36980026-1"
+			mode="AS3"
+			visualDebug="false"
+			/>
+	</fx:Declarations>
+	<fx:Style source="../src/styles/nysh_css.css"  />
+
+	<fx:Script>
+		<![CDATA[
+			import components.RosterDetailPopup;
+			import components.TrophyWidget;
+			
+			import flash.net.navigateToURL;
+						
+			import mx.collections.ArrayCollection;
+			import mx.collections.ListCollectionView;
+			import mx.containers.GridItem;
+			import mx.containers.accordionClasses.AccordionHeader;
+			import mx.events.FlexEvent;
+			import mx.managers.PopUpManager;
+			import mx.rpc.events.ResultEvent;
+			
+			import spark.components.List;
+			
+			[Bindable] private var NYSH_BLUE:uint = 0x009FE0;
+			[Bindable] private var pictures : ArrayCollection;
+						
+			private static const BROSHCOMICURL:String = "http://hyperboleandahalf.blogspot.com/2010/04/how-to-make-showering-awesome-again.html";
+			private static const BROSHYOUTUBEURL:String = "http://www.youtube.com/embed/jUjh4DE8FZA"; 
+			
+			private var trophiesCreated:Boolean = false;
+			
+			private function serviceHandler(event:ResultEvent):void{
+				pictures = event.result.gallery.photo;
+			}
+
+		]]>
+	</fx:Script>
+	<s:VGroup height="100%" width="100%" gap="-1" >		
+		<!--<s:Image source="@Embed('media/NYSH_banner_2012.png')" />-->
+		<mx:TabNavigator id="tabNav" width="100%" height="100%"  >
+			
+			<components:HomeTab label="Home"/>
+			<components:RosterTab id="rosterCanvas" label="Roster"/>
+			<components:ScheduleTab label="Schedule"/>
+			<!--<components:NewsTab 			label="News" />-->
+			<components:SponsorGallery 		label="Sponsors"/>
+			<!--<components:MediaGallery 		label="Media" />-->
+			<components:TrophyGallery 		label="Trophies"/>
+			<components:InspirationGallery 	label="The Shower Hammer"/>
+			
+		</mx:TabNavigator>
+	</s:VGroup>
+</s:Application>

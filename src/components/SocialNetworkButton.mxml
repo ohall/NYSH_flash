@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		   xmlns:s="library://ns.adobe.com/flex/spark" 
+		   xmlns:mx="library://ns.adobe.com/flex/mx" click="clickHandler(event)" 
+		   useHandCursor="true" buttonMode="true" verticalCenter="0">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<fx:Script>
+		<![CDATA[
+			
+			protected var networkurl:String;
+			protected var imageurl:String;
+			
+			protected function clickHandler(event:MouseEvent):void{
+				navigateToURL(new URLRequest(networkurl), '_blank')			
+			}
+			
+		]]>
+	</fx:Script>
+</s:Group>

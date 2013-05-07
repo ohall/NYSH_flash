@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<roster>
+	<player> 
+		<name>Adam</name> 	
+		<fullName>Adam Wood</fullName> 	
+		<position>Charger, Pitcher, Outfield</position> 
+		<years>4</years>
+		<bio> </bio> 
+		<pic>../bio_pics/Adam.png</pic>
+	</player>
+	<player> 
+		<name>Amy</name> 		
+		<fullName>Amy Malbon</fullName> 	
+		<position>First Base, Outfield</position> 
+		<years>4</years> 
+		<bio>5'11" outfield, first base. (And charger--super win defense).  Amy met Oakley and Karl on a blacktop field back in 2007, when she was brand new to NY and magic followed...on and off the field. 4 years later Amy now spends long hours trying to convince Oakley not to practice on Saturday mornings in the middle of winter and even longer hours at the gym, so she can throw out all the guys who think they're going to go 1st to 3rd on her.</bio> 
+		<pic>../bio_pics/Amy.png</pic>
+	</player>
+	<player> 
+		<name>Ashley</name> 	
+		<fullName>Ashley Egbert</fullName> 	
+		<position>Second Base</position>
+		<years>4</years>
+		<bio>AKA Smashley, 5'7" second base, started her kickball career on asphalt in the LES in 2008 (and has the scars to prove it). Ashley went on to captain the legendary, Team Ramrod, where her official obsession with competitive kickball was born.  Athletic endeavors outside of kickball include the gym, yoga, softball, running and the occasional boxing or dance class. Other interests include reading, the beach, fancy dinners and breaking shit. NYSH 4 Life!!!</bio> 
+		<pic>../bio_pics/Ashley.png</pic>
+	</player>
+	<player> 
+		<name>Booch</name> 	
+		<fullName>Chris Bocciolatt</fullName> 	
+		<position>Outfield</position>
+		<years>4</years>
+		<bio> </bio> 
+		<pic>../bio_pics/Booch.png</pic>
+	</player>
+	<player>
+	 	<name>Bryant</name> 	
+	 	<fullName>Bryant Ferber</fullName> 	
+		<position>Catcher, OF</position> 
+		<years>4</years> 
+		<bio> </bio> 
+		<pic>../bio_pics/Bryant.png</pic>
+	</player>
+	<player> 
+		<name>Chelsea</name> 	
+		<fullName>Chelsea Hunt</fullName> 	
+		<position>Outfield</position>
+		<years>4</years>
+		<bio>Left field, Short stop. Able to walk at 9 months old and could ride a 2-wheel bicycle w/no training wheels at age 2. Champion trampoline dodgeballer of the neighborhood growing up. Played soccer, basketball, and softball through high school and continued her soccer career into college. After graduating in 2007, Chelsea decided to stop chasing her pro soccer dream to follow her kindergarten dream...winning the Circuit Cup. Chelsea first had to endure 3 years with Waka where she played on the Best Coast Ballers (BCB). In 09 BCB finished 2nd in the FC. Chelsea has decided to join the Shower Hammers because she really like to win and heard the team is full of good looking people. Boom!</bio> 
+		<pic>../bio_pics/Chelsea.png</pic>
+	</player>
+	<player> 
+		<name>Cliner</name> 	
+		<fullName>Chris Cline</fullName> 	
+		<position>Charger</position> 
+		<years>4</years> 
+		<bio>aka that guy aka self proclaimed best charger in the world. 6'0" solid 180... CHARGER. Started playing kickball in fall of '09 with RAMROD will always love those times, but now on to bigger and better victories with NYSH. Hates Loofahs! Ever since he took a try at the position of charger Cliner has been making unnessary dives and slides all while listening to every lil bitchass opponent complain about him encroaching. Keep Hating Bitches he NEVER crosses that line early!!!</bio> 
+		<pic>../bio_pics/Cliner.png</pic>
+	</player>
+	<player> 
+		<name>Danielle</name> 
+		<fullName>Danielle Doctor</fullName> 	
+		<position>Outfield</position>
+		<years>4</years>
+		<bio>Standing at an intimidating 5'1", Danielle is veratile utility player. Danielle was introduced to kickball through Steve in the fall of 2010. Danielle also plays soccer and softball. VBKO was Danielle's first tourney in what promises to be a long and storied career with NYSH. </bio> 
+		<pic>../bio_pics/Danielle.png</pic>
+	</player>
+	<player>
+		<name>Jack</name> 	
+		<fullName>Jack Copus</fullName> 	
+		<position>Pitcher, Outfield</position>
+		<years>4</years>
+		<bio>5'11" 205 lbs, plays pitcher and outfield. Jack started playing Kickball with NYCSSC in 2008 and was put on a team with 10 non athletic girls and 4 dudes who would have rather been playing Dugeons and Dragons than play any social sport. Jack was introduced to competitive kickball through WAKA and has had the opportunity to captain alongside Oakley and the best group of hard core motherfuckers in the game. Shower Hammer 4 Life!</bio> 
+		<pic>../bio_pics/Jack.png</pic>
+	</player>
+	<player> 
+		<name>Jay</name> 		
+		<fullName>Jason Vogel</fullName> 	
+		<position>First Base</position>
+		<years>4</years>
+		<bio> </bio> 
+		<pic>../bio_pics/Jay.png</pic>
+	</player>
+	<player> 
+		<name>Jhard</name> 	
+		<fullName>Jeremy Hardwick</fullName>	
+		<position>Right Field, Catcher</position> 
+		<years>4</years>
+		<bio>The rumors are true.</bio> 
+		<pic>../bio_pics/Jhard.png</pic>
+	</player>
+	<player> 
+		<name>Jojo</name> 	
+		<fullName>Johanna Paretsky</fullName> 	
+		<position>Outfield, Second Base</position>
+		<years>4</years> 
+		<bio>aka JoJo  5'8"  Plays 2B and first in line at a free beer booth. Lefty, biotch. Joined WAKA in 2008 thanks to college friends who put together a team and left for more money-making endeavors after one season. Lucky enough to be recruited onto the legendary, kings and queens of unabashed awesome fun: D.T.F. The Great Merger offered unmatched social equity, but also prevented her from ever running for any kind of public officer, including NFL Commissioner.  In her spare time, she served as sideline Dumpster Fire groupie, reveling in LIU's complete inability to match them on any level worth measuring. Finally, the call for competitive kickball came in 2010, and through the glorious thickets soon sounded the conch shell horn of the NY Shower Hammers.  With that, she found the trifecta perfecta of playing with friends, fierces competitors, and most of all, hotties. Her college friends are silently jealous to this day. Other interests: soccer, bball, yoga, oh, making sweet music, and saying holler a lot.</bio> 
+		<pic>../bio_pics/Jojo.png</pic>
+	</player>
+	<player> 
+		<name>Karl</name> 	
+		<fullName>Karl Pawlewicz</fullName> 	
+		<position>Pitcher, Charger</position> 
+		<years>4</years>
+		<bio>6'0" 235 lbs. Started playing kickball in 2007. In addition to dealing from the mound for NYSH, Karl plays Brooklyn Kickball and soccer for the world famous Never Scared. Swims and provides running tours of Manhattan. Karl was a part of the team that won the inaugural NYC Grand National Tournament, and have been on two CTKO (the worst kickball tournament in the world) championship teams. Karl loves Scrabble, hates the K365 Messageboard and wishes he were on Phish tour right now.</bio> 
+		<pic>../bio_pics/Karl.png</pic>
+	</player>
+	<player> 
+		<name>Oakley</name> 	
+		<fullName>Oakley Hall</fullName> 	
+		<position>Catcher</position> 
+		<years>4</years> 
+		<bio>5'11" 170lbs. Oakley began his kickball career in 2007 and has been passionate about the sport ever since. When he's not playing kickball, Oakley spends his time programming computers, training for kickball and convincing Amy to practice on Saturday mornings in the snow.  What keeps Oakley coming back is the camraderie, the adrenaline and knowledge that one day NYSH will rise above all others to sit on top of the world. </bio> 
+		<pic>../bio_pics/Oakley.png</pic>
+	</player>
+	<player> 
+		<name>Ricky</name> 	
+		<fullName>Ricky LaForge</fullName> 	
+		<position>Charger, Outfield</position> 
+		<years>4</years> 
+		<bio>5’5” 165lbs of pure fist pumping fury. Plays charger and outfield. Ricky started playing kickball in Hoboken in 2009 and made the transition to WAKA and the circuit in 2010. Then the NYSH came into his life and all of his kickball prayers were answered. Ricky was an all-american NCAA wrestler in college and paddle boards. Ricky is also the COO of the US Military Endowment which raises money for US soldiers. Most importantly Ricky is from NJ and represents everything that comes with it, start the music.</bio> 
+		<pic>../bio_pics/Ricky.png</pic>
+	</player>			
+	<player> 
+		<name>Slam</name> 	
+		<fullName>Steven Spitzer</fullName> 	
+		<position>Outfield</position> 
+		<years>4</years> 
+		<bio>Combining bunting ability and scorekeeping skills, this 5'5 stud is one of the most well known names in all of kickball. Introduced to kickball in 2008, StevieSlam has gone from lackluster player to Fall NY Star's 2010 most improved player. When not playing kickball, StevieSlam can be found playing softball, being drawn on, or wondering what if he had gone to pro wrestling school.</bio> 
+		<pic>../bio_pics/Slam.png</pic>
+	</player>
+	<player> 
+		<name>Tom</name> 	
+		<fullName>Tom Lanahan</fullName> 	
+		<position>Pitcher, Charger, Outfield</position> 
+		<years>4</years>
+		<bio>6'0" 190 lbs. pitcher, catcher, charger, outfield. Tom started playing Kickball in 2004 on the vicious proving grounds of Richmond VA. After catching the competitive bug thanks to the man-eater, Tom has logged 31 seasons. Tom was the recipient of the VA Capital Alex Rodriguez Award and has 3 founders cup appearances resulting in 15th, 2nd, and 9th place finishes. After winning the BOTW with 3HA Tom was drafted onto NYSH and the rest is a fairytale to be written. </bio> 
+		<pic>../bio_pics/Tom.png</pic>
+	</player>
+	<player> 
+		<name>Meghan</name> 	
+		<fullName>Meghan Duesing</fullName> 	
+		<position>Shortstop, Outfield</position> 
+		<years>1</years>
+		<bio></bio> 
+		<pic>../bio_pics/Meghan.png</pic>
+	</player>
+	<player> 
+		<name>Maria</name> 	
+		<fullName>Maria Pfeiffer</fullName> 	
+		<position>Shortstop, Outfield</position> 
+		<years>1</years>
+		<bio></bio> 
+		<pic>../bio_pics/Maria.png</pic>
+	</player>
+	<player> 
+		<name>Scott</name> 	
+		<fullName>Scott Faries</fullName> 	
+		<position>Outfield</position> 
+		<years>1</years>
+		<bio></bio> 
+		<pic>../bio_pics/Scott.png</pic>
+	</player>
+	<player> 
+		<name>Robin</name> 	
+		<fullName>Robin Foster</fullName> 	
+		<position>Outfield</position> 
+		<years>1</years>
+		<bio></bio> 
+		<pic>../bio_pics/Robin.png</pic>
+	</player>
+	<player> 
+		<name>Chad</name> 	
+		<fullName>Chad Martin</fullName> 	
+		<position>Catcher, Outfield</position> 
+		<years>2</years>
+		<bio> 5'9" 170 Catcher, OF.  Chad hails from Connecticut and is known in most kickball circles as "KaBoombox".  He found a home with the NYSH in 2012 after playing a few years on socially celebrated circuit teams such as "1UCK", "Safety Pullout", "Team Skittles", and "Nailed at the Plate".  Chad credits much of his kickball success to the living legend, Awkward Zak, the original captain of "1UCK".  "Without Zak I wouldn't be playing travel kickball.  He showed me the template for circuit success.", Chad said in a 2011 interview with "Bunt, Bunt, Sac!" magazine.  Besides speed and defense, Chad's biggest asset to the kickball game is the KaBoomBox.   He believes a great playlist on gameday goes hand-in-hand with a great performance on the field.  Off the field, Chad enjoys bowling, catch phrase, and romantic comedies.</bio> 
+		<pic>../bio_pics/Chad.png</pic>
+	</player>
+	<player> 
+		<name>Wolfie</name> 	
+		<fullName>Christina Wolf</fullName> 	
+		<position>Second Base, Outfield</position> 
+		<years>1</years>
+		<bio>5'1 Second Base/ Outfielder started her kickball career back in 2010 playing for 1UCK where she had the privilege of playing along side Awkward Zak.  Being a rookie, she was able to learn the game inside and out and hasnt look back since.  Playing with a passion and competitiveness to win she gets her edge from the eye black that she wears!  When Christina is not playing kickball she enjoys softball, dodgeball, crossfit and long walks on the beach.</bio> 
+		<pic>../bio_pics/Wolfie.png</pic>
+	</player>
+	
+	
+	
+	
+	
+	
+<!-- 	Inactive/Retired -->
+	
+<!-- 	<player>  -->
+<!-- 		<name>Cullen</name> 	 -->
+<!-- 		<fullName>Cullen Shaw</fullName> 	 -->
+<!-- 		<position>Outfield</position> -->
+<!-- 		<years>4</years> -->
+<!-- 		<bio>6"1" 180lbs with a 15lb beer gut. An original member of Dumpster Fire and also the WAKA rep that got Jack Copus and Ashley Egbert in the league (worst field ever). Formed Ultimate Rec, a sports league for young professionals, in 2009. Ultimate Rec's first softball league helped connect Chris Bocciolatt and Chris Cline with the kickball community. Due to injuries and obligations with UltiRec, Cullen has been on the DL for the entire 2011 season, but hopes to return and celebrate the awesomeness that is NYSH.</bio>  -->
+<!-- 		<pic>../bio_pics/Cullen.png</pic> -->
+<!-- 	</player> -->
+<!-- 	<player>  -->
+<!-- 		<name>Stu</name> 		 -->
+<!-- 		<fullName>Ryan Stuczynski</fullName> 	 -->
+<!-- 		<position>Outfield</position>  -->
+<!-- 		<years>4</years>  -->
+<!-- 		<bio> </bio>  -->
+<!-- 		<pic>../bio_pics/Stu.png</pic> -->
+<!-- 	</player> -->
+<!-- 	<player>  -->
+<!-- 		<name>Marlon</name> 	 -->
+<!-- 		<fullName>Marlon LeWinter</fullName> 	 -->
+<!-- 		<position>Outfield</position>  -->
+<!-- 		<years>4</years>  -->
+<!-- 		<bio> Marlon has played kickball for 12 seasons.  He also plays soccer, roller hockey, wiffleball, softball.  Marlon was the connect four champion in 4th grade, my nickname in the gym is "the mayor" and one time in band camp...  Marlon loves saved by the bell, anything chocolate raspberry, needs to have peanut butter at least once a day, is obsessed with the gym, thinks blueberry waffles and panckes could be had for breakfast, lunch or dinner, never met an olive he didnt like, can eat pizza for dinner every night and thinks the weirdest people can be found in malls, airports and suwbays</bio>  -->
+<!-- 		<pic>../bio_pics/Marlon.png</pic> -->
+<!-- 	</player> -->
+<!-- 	<player>  -->
+<!-- 		<name>Maitane</name> 	 -->
+<!-- 		<fullName>Maitane Urruchua</fullName> 	 -->
+<!-- 		<position>Shortstop, Second Base</position> -->
+<!-- 		<years>4</years> -->
+<!-- 		<bio> </bio> -->
+<!-- 		<pic>../bio_pics/Maitane.png</pic> -->
+<!-- 	</player>  -->
+<!-- 	<player>  -->
+<!-- 		<name>Kelly</name> 	 -->
+<!-- 		<fullName>Kelly Wildeman</fullName> 	 -->
+<!-- 		<position>Outfield</position> -->
+<!-- 		<years>4</years> -->
+<!-- 		<bio> </bio>  -->
+<!-- 		<pic>../bio_pics/Kelly.png</pic> -->
+<!-- 	</player> -->
+<!-- 	<player>  -->
+<!-- 		<name>Maggie</name> 	 -->
+<!-- 		<fullName>Maggie Harrison</fullName> 	 -->
+<!-- 		<position>Shortstop, Second Base, Outfield</position>  -->
+<!-- 		<years>4</years> -->
+<!-- 		<bio> </bio>  -->
+<!-- 		<pic>../bio_pics/Maggie.png</pic> -->
+<!-- 	</player> -->
+
+</roster>

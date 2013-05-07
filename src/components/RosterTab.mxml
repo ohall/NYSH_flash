@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		   xmlns:s="library://ns.adobe.com/flex/spark" 
+		   xmlns:mx="library://ns.adobe.com/flex/mx" 
+		   xmlns:components="components.*">
+	
+	<fx:Declarations>
+		<fx:XML id="rosterXML" source="roster.xml" />
+		<s:XMLListCollection id="xmlListColl" source="{rosterXML.player}" />
+		
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			
+			import mx.managers.PopUpManager;
+			
+			protected function rosterGrid_clickHandler(event:MouseEvent):void
+			{
+				if(event.target.className != "GridLayer" ){
+					var rosterPopup:RosterDetailPopup = new RosterDetailPopup();
+					rosterPopup.playerName = event.target.grid.dataProvider[event.target.grid.caretRowIndex].fullName;
+					rosterPopup.picURL = event.target.grid.dataProvider[event.target.grid.caretRowIndex].pic;
+					rosterPopup.bio = event.target.grid.dataProvider[event.target.grid.caretRowIndex].bio;
+					rosterPopup.addEventListener(MouseEvent.CLICK, popUp_click);
+					PopUpManager.addPopUp(rosterPopup,this,true);
+					PopUpManager.centerPopUp(rosterPopup);
+				}
+			}
+			
+			private function popUp_click(evt:MouseEvent):void {
+				PopUpManager.removePopUp(evt.currentTarget as RosterDetailPopup);
+			}
+			
+			
+		]]>
+	</fx:Script>
+	<mx:VBox x="15" height="95%">		
+		<s:Label text="Click player for details" fontSize="20" height="25" verticalAlign="bottom"/>
+		<s:DataGrid id="rosterGrid" dataProvider="{xmlListColl}"
+					height="100%" horizontalCenter="0" click="rosterGrid_clickHandler(event)">
+			<s:columns>
+				<s:ArrayList>
+					<s:GridColumn dataField="name" headerText="Player" width="100"/>
+					<s:GridColumn dataField="position" 	headerText="Position" width="300"/>
+				</s:ArrayList>
+			</s:columns>
+		</s:DataGrid>
+	</mx:VBox>	
+	<s:Image source="@Embed('media/jack_pitch_no_bkgnd.png')" bottom="0" right="0"/>
+</mx:Canvas>

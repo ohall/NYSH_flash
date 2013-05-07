@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		   xmlns:s="library://ns.adobe.com/flex/spark" 
+		   xmlns:mx="library://ns.adobe.com/flex/mx">
+	<fx:Declarations>
+		<fx:XML id="scheduleXml" source="schedule.xml"/>
+		<s:XMLListCollection id="xmlListColl" source="{scheduleXml.event}" />
+	</fx:Declarations>
+	
+	
+	
+	<s:DataGrid id="scheduleGrid" dataProvider="{xmlListColl}" 
+				sortableColumns="false" width="80%"  
+				horizontalCenter="0">
+		<s:columns>
+			<s:ArrayList>
+				<s:GridColumn dataField="name" 			headerText="Event"/>
+				<s:GridColumn dataField="date" 			headerText="Date"/>
+				<s:GridColumn dataField="location" 		headerText="Location"/>
+				<s:GridColumn dataField="url" 			headerText="Website"/>
+				<s:GridColumn dataField="team_status" 	headerText="Status"/>
+			</s:ArrayList>
+		</s:columns>
+	</s:DataGrid>
+	<s:Image source="@Embed('media/ricky_slide_nobkgd_sm.png')" bottom="0" right="0"/>
+</mx:Canvas>

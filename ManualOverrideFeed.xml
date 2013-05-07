@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  
+  
+  <channel>
+    <atom:link href="http://bizarr2d2.com/ManualOverride/ManualOverrideFeed.xml" rel="self" type="application/rss+xml" />
+
+    <title>Manual Override</title>
+    <description>Interesting manuals and informational text from around the web</description>
+    <link>https://www.facebook.com/ManualOverridePodcast</link>
+    <language>en-us</language>
+    <copyright>Copyright 2012</copyright>
+    <lastBuildDate>Sat, 24 Nov 2012 15:00:00 EST</lastBuildDate>
+    <pubDate>Sat, 24 Nov 2012 15:00:00 EST</pubDate>
+    <docs>https://www.facebook.com/ManualOverridePodcast</docs>
+    <webMaster>oakley349@gmail.com (Oakley Hall)</webMaster>
+
+    <itunes:author>Oakley</itunes:author>
+    <itunes:subtitle>On Manual Override, we read and explore interesting manuals and how to texts from around the web.</itunes:subtitle>
+    <itunes:summary> There's a lot information buried in pdfs and dead tree manuals out there.  On Manual Override we put all that right in your podcast feed</itunes:summary>
+
+    <itunes:owner>
+           <itunes:name>Oakley</itunes:name>
+           <itunes:email>oakley349@gmail.com</itunes:email>
+    </itunes:owner>
+
+<itunes:explicit>No</itunes:explicit>
+
+<itunes:image href="http://www.bizarr2d2.com/ManualOverride/manover_itunes.jpg"/>
+    
+<itunes:category text="Education">
+     <itunes:category text="Training"/>
+</itunes:category>
+
+<item>
+  <title>US Military First Aid Manual Chapter 1: FUNDAMENTAL CRITERIA FOR FIRST AID</title>
+  <link>https://www.facebook.com/ManualOverridePodcast</link>
+  <guid>http://bizarr2d2.com/ManualOverride/ManualOverrideEpisode1.mp3</guid>
+  <description> In our first episode, we'll begin our examination of the 2002 edition of the US Military's First Aid Manual. 
+    Despite military specific language, this text contains a ton of useful information. </description>
+  <enclosure url="http://bizarr2d2.com/ManualOverride/ManualOverrideEpisode1.mp3" length="11779397" type="audio/mp3"/>
+  <category>Training</category>
+  <pubDate>Sat, 24 Nov 2012 15:00:00 EST</pubDate>
+  <itunes:author>Oakley</itunes:author>
+
+  <itunes:explicit>No</itunes:explicit>
+  <itunes:subtitle>In our first episode, we'll begin our examination of the 2002 edition of the US Military's First Aid Manual. 
+    Despite military specific language, this text contains a ton of useful information.</itunes:subtitle>
+  <itunes:summary> In our first episode, we'll begin our examination of the 2002 edition of the US Military's First Aid Manual. 
+    Despite military specific language, this text contains a ton of useful information.</itunes:summary>
+  <itunes:duration>00:24:30</itunes:duration>
+  <itunes:keywords>how to, manuals, skills, info, survival, education, training</itunes:keywords>
+
+</item>
+
+<item>
+	<title>US Military First Aid Manual Chapter 2: BASIC MEASURES FOR FIRST AID</title>
+	<link>https://www.facebook.com/ManualOverridePodcast</link>
+	<itunes:subtitle>We continue our examination of the 2002 edition of the US Military's First Aid Manual. </itunes:subtitle>
+	<itunes:author>Oakley</itunes:author>
+	<itunes:summary>We continue our examination of the 2002 edition of the US Military's First Aid Manual. </itunes:summary>
+	<enclosure url="http://bizarr2d2.com/ManualOverrideManualOverrideEpisode2.mp3" length="" type="audio/mp3" />
+	<guid>http://bizarr2d2.com/ManualOverride/ManualOverrideEpisode2.mp3</guid>
+	<itunes:duration>00:49:09</itunes:duration>
+	<itunes:keywords>how to, manuals, skills, info, survival, education, training</itunes:keywords>
+	<pubDate>Sun, 25 Nov 2012 15:00:00 EST</pubDate>
+	<itunes:explicit>No</itunes:explicit>
+</item>
+
+
+<item>
+<title>US Military First Aid Manual Chapter 3: FIRST AID FOR SPECIFIC INJURIES</title>
+<link>https://www.facebook.com/ManualOverridePodcast</link>
+<itunes:subtitle>We continue our examination of the 2002 edition of the US Military's First Aid Manual.</itunes:subtitle>
+<itunes:author>Oakley</itunes:author>
+<itunes:summary></itunes:summary>
+<enclosure url="http://bizarr2d2.com/ManualOverrideManualOverrideEpisode3.mp3" length="55,870,129" type="audio/mp3" />
+<guid>http://bizarr2d2.com/ManualOverride//ManualOverrideEpisode3.mp3</guid>
+<itunes:duration>00:46:33</itunes:duration>
+<itunes:keywords>how to, manuals, skills, info, survival, education, training</itunes:keywords>
+<pubDate>Sun, 2 Dec 2012 09:15:00 EST</pubDate>
+<itunes:explicit>No</itunes:explicit>
+</item>
+
+<item>
+<title>US Military First Aid Manual Chapter 4: FIRST AID FOR FRACTURES</title>
+<itunes:subtitle>We continue our examination of the 2002 edition of the US Military's First Aid Manual.</itunes:subtitle>
+<itunes:author>Oakley</itunes:author>
+<itunes:summary>4-1. General  
+4-2. Kinds of Fractures 
+4-3. Signs and Symptoms of Fractures
+4-4. Purposes of Immobilizing Fractures
+4-5. Splints, Padding, Bandages, Slings, and Swathes
+4-6. Procedures for Splinting Suspected Fractures
+4-7. Upper Extremity Fractures
+4-8. Lower Extremity Fractures
+4-9. Jaw, Collarbone, and Shoulder Fractures
+4-10. Spinal Column Fractures
+4-11. Neck Fractures</itunes:summary>
+<enclosure url="http://bizarr2d2.com/ManualOverride/ManualOverrideEpisode4.mp3" length="" type="audio/mp3" />
+<guid>http://bizarr2d2.com/ManualOverride/ManualOverrideEpisode4.mp3</guid>
+<itunes:duration>00:23:37</itunes:duration>
+<itunes:keywords>how to, manuals, skills, info, survival, education, training</itunes:keywords>
+<pubDate>Sun, 9 Dec 2012 11:00:00 EST</pubDate>
+<itunes:explicit>No</itunes:explicit>
+</item>
+
+</channel>
+</rss>

@@ -1,0 +1,72 @@
+/* CSS file */
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+@namespace components "components.*";
+
+mx|TabBar{
+	fontWeight:bold;
+	contentBackgroundColor:#009FE0;
+	chromeColor:#e7f85e;
+	horizontalAlign:center;
+	horizontalGap:10;
+	tabWidth:153;
+	tabHeight:20;
+	
+}
+
+
+mx|TabNavigator{
+	fontSize:12;
+	accentColor:#e7f85e; 
+	verticalGap:-1;
+	paddingTop:-1;
+	backgroundAlpha:0;
+	borderAlpha:0;
+}
+
+s|DataGrid{
+	chromeColor:#e7f85e;
+	contentBackgroundColor:#009FE0;
+	fontWeight:bold;
+	borderVisible:true;
+	borderColor:#009FE0;
+	
+	
+}
+
+
+mx|Canvas{
+}
+
+s|Application {
+}
+
+
+components|RosterDetailPopup{
+	backgroundColor:#000000;
+	verticalAlign:middle;
+	borderStyle:solid;
+	borderColor:#009FE0;
+	
+}
+
+.newsItem{
+	backgroundColor:#009FE0;
+	borderStyle:solid;
+	borderColor:#009FE0;
+	cornerRadius:10;
+}
+	
+
+.inspText{
+	color:#000000;
+	fontSize:20;
+	backgroundColor:#FFFFFF
+}
+
+.nyshTextArea{
+	contentBackgroundColor:#009FE0;
+	borderAlpha:0;
+	
+}
+

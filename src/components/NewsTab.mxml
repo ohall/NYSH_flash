@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:Canvas xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		   xmlns:s="library://ns.adobe.com/flex/spark" 
+		   xmlns:mx="library://ns.adobe.com/flex/mx" 
+		   width="100%" height="100%" 
+		   creationComplete="creationComplete(event)" 
+		   horizontalScrollPolicy="off">
+	
+	<fx:Declarations>
+		<fx:XML id="newsXML" source="news.xml" />
+		<s:XMLListCollection id="xmlListColl" source="{newsXML.news_item}" />
+	</fx:Declarations>
+
+	<fx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+			
+			protected function creationComplete(event:FlexEvent):void
+			{
+				for each(var _newsObj:Object in xmlListColl){
+					
+					var _newsItem:NewsItem = new NewsItem();
+					_newsItem.newsDate = _newsObj.date;
+					_newsItem.newsTitle = _newsObj.title;
+					_newsItem.newsText = _newsObj.text;
+					_newsItem.newsImgUrl = _newsObj.pic;
+					
+					newsVbox.addChild(_newsItem);
+				}
+				
+			}
+			
+		]]>
+	</fx:Script>
+	
+	
+	
+	
+	<mx:VBox id="newsVbox" width="100%" x="20"/>
+	
+	
+</mx:Canvas>
